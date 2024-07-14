@@ -1,0 +1,36 @@
+
+body {
+    background: var(--background-clr);
+  }
+.dark-theme {
+    --heading: #69839b;
+    --paragraph-clr: #cfb7b7;
+    --btn-bg-clr: #58798d;
+    --btn-text-clr: #fff;
+    --background-clr: #111620;
+    --nav: white;
+  }
+  .light-theme {
+    --heading: #5f99be;
+    --paragraph-clr: #1a0909;
+    --btn-bg-clr: #111620;
+    --btn-text-clr: #fff;
+    --background-clr: #fff;
+    --nav: black;
+  }
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--btn-text-clr);
+    border: 1px solid #241010;
+    padding: 12px 34px;
+    font-size: 15px;
+  
+    background: var(--btn-bg-clr);
+    cursor: pointer;
+  }
+  .btn:hover {
+    border: 1px solid #090d47;
+    background: #524668;
+    transition: 1s;
+  } 
